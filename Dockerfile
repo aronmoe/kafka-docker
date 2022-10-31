@@ -1,6 +1,6 @@
-FROM openjdk:11-jre-slim
+FROM openjdk:17-jdk-slim
 
-ARG kafka_version=2.8.1
+ARG kafka_version=3.3.1
 ARG scala_version=2.13
 ARG vcs_ref=unspecified
 ARG build_date=unspecified
